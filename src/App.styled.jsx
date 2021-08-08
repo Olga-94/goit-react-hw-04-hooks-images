@@ -36,3 +36,9 @@
 //     transform: rotate(360deg);
 //   }
 // }
+import styled from '@emotion/styled';
+
+export const StyledApp = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+`;
